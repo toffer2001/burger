@@ -17,3 +17,16 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+.change-devoured {
+  border-radius: 20%;
+  font-weight: 800;
+  background: #835C3B;
+  color: white;
+}
+
+.delete-burger {
+  border-radius: 20%;
+  color: white;
+  background: darkgray;
+}
