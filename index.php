@@ -1,1 +1,1 @@
-<?php include_once(""); ?>
+<?php header( 'Location: /' ) ;  ?>
