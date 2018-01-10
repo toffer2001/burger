@@ -1,11 +1,27 @@
 body {
     background-color: #FAFAD2;
+    font-family: 'Abel', sans-serif,  'Josefin Slab', serif, 'Gudea', sans-serif;
 }
+
+.jumbotron, .panel {
+  background-color: #FAFAD2;
+  border: 0px;
+  padding: 0px;
+}
+
+/* .panel-heading {
+  background-color: #FAFAD2;
+  border: 0px;
+  padding: 0px;
+  font-weight: bold;
+
+
+} */
 
 li {
   padding: 5px;
   margin: 5px;
-  background: lightblue;
+  color: rgb(41, 125, 153);
 }
 
 .label {
