@@ -5,7 +5,11 @@ var mysql = require("mysql");
 var connection;
 
 if (process.env.JAWSDB_URL){
-    connection = mysql.createConnection(process.env.JAWSDB_URL || 3306)
+    connection = mysql.createConnection(process.env.JAWSDB_URL)
+        // host: "y06qcehxdtkegbeb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+        // user: "jb6viooadhls615k",
+        // password: "q7sr99iwswbvzowj",
+        // database: "burgers_db"
 }else{
     connection = mysql.createConnection({
         host: "localhost",
