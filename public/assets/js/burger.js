@@ -28,9 +28,7 @@ $(function() {
     var newBurger = {
       burger_name: $("#ca").val().trim(),
       devoured: $("[name=devoured]:checked").val().trim()
-    };
-`
-    // Send the POST request.
+    };    // Send the POST request.
     $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger
@@ -42,6 +40,7 @@ $(function() {
       }
     );
   });
+
 
   $(".delete-burger").on("click", function(event) {
     var id = $(this).data("id");
